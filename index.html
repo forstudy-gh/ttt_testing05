@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets\logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <div class="heading"><p class="p1">Tic Tac Toe</p></div>
+    
+    <div class="container">
+
+        <!-- DIV 1 -->
+        <div class="main">
+            <div class="choice">
+                <div><button class="page" id="frnd">Play against friend</button></li></div>
+                <div><button class="page" id="comp">Play against computer</button></div>
+            </div>
+            <div class="decision">
+                <div class="dec_img"></div>
+                <p class="dec_p"></p>
+            </div>
+        </div>
+
+        <!-- DIV 2 -->
+        <div class="play_area">
+            <div class="turn">
+                <div class="p2">X</div>
+                <div class="p3">Turn</div>
+            </div>
+            <div class="line"></div>
+            <div class="board">
+                <div class="box" id="one"></div>
+                <div class="box" id="two"></div>
+                <div class="box" id="three"></div>
+                <div class="box" id="four"></div>
+                <div class="box" id="five"></div>
+                <div class="box" id="six"></div>
+                <div class="box" id="seven"></div>
+                <div class="box" id="eight"></div>
+                <div class="box" id="nine"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <audio id="clickSound" src="assets\click_sound.mp3" preload="auto"></audio>
+    <audio id="winSound" src="assets\win_sound.mp3" preload="auto"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
